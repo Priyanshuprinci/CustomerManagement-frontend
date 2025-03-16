@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { fetchCustomers } from '../api';
-import SearchBar from './SearchBar';
 import Filter from './Filter';
 import Pagination from './Pagination';
+import SearchBar from './SearchBar';
 
 const CustomerTable = () => {
   const [customers, setCustomers] = useState([]);
