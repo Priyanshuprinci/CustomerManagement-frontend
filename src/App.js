@@ -1,5 +1,5 @@
 import React from 'react';
-import CustomerTable from './Components/CustomerTable';
+import CustomerTable from './components/CustomerTable';
 
 const App = () => {
   return (
